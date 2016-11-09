@@ -17,7 +17,7 @@
         "angular-cookies": "*",
         "mongoose": "*", 
         "lodash": "*", 
-        "bcrypt": "*", 
+        "bcrypt-nodejs": "*", 
         "jsonwebtoken": "*"
     }, 
     "devDependencies": {
