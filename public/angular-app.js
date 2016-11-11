@@ -11,12 +11,6 @@ function AngularAppConfiguration($routeProvider, $locationProvider) {
             controllerAs: 'vm',
             authRequired: true, 
             title: "Nodular Material"
-        })
-        .when('/login', {
-            templateUrl: '/app/views/login.html',
-            controller: 'loginController',
-            controllerAs: 'vm', 
-            title: "Log In"
         });
 
     //Remove the need for the '#' in the URL.

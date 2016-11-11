@@ -1,3 +1,17 @@
-<div>
-    <h3>Current User {{vm.currentUserName}}</h3>
+<div layout="row">
+    <div flex="40" ng-controller="AppCtrl as appCtrl" ng-cloak>
+        <md-grid-list
+            md-cols-xs="1" md-cols-sm="1" md-cols-md="10" md-cols-gt-md="8"
+        md-row-height-gt-md="1:1" md-row-height="2:2"
+        md-gutter="10px" md-gutter-gt-sm="8px" >
+        <md-grid-tile class="red"
+        md-rowspan="10" md-colspan="8" md-colspan-sm="1" md-colspan-xs"1">
+        <md-grid-tile-footer>
+            <h1>screen</h1>
+        </md-grid-tile-footer>
+        </md-grid-tile>
+</div>
+<div flex="60">
+goodbye
+</div>
 </div>

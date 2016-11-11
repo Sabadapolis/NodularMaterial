@@ -6,7 +6,7 @@ function AngularAppRunConfiguration($rootScope, $location, $routeParams, $route,
     $rootScope.$on('$routeChangeStart', function (scope, next, current) {
         if (next.$$route.authRequired) {
              if (!$cookies.get('access-token')){
-                 $location.path('/login');
+                //  $location.path('/');
              }
         }
     });
